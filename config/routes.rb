@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :users
 
+  get 'users1', to: "users#index", as: "users1"
+
   get 'home/input', :as => 'input'
   get 'home/output', :as => 'output'
 

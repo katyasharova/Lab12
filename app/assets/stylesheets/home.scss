@@ -37,6 +37,11 @@ body {background: #64a591}
     font-size: 20px;
   }
 
+  .users_list{
+    background-color: white;
+    color: #c8cecc;
+}
+
   .exit-button {
     color: #62a08d;
     font-size: 20px;
@@ -45,6 +50,17 @@ body {background: #64a591}
     height: 40px;
     position: fixed;
     top: 10px;
+    right: 10px; 
+}
+
+.list-button {
+    color: #508a78;
+    font-size: 20px;
+    width: 270px;
+    border-radius: 20px;
+    height: 40px;
+    position: fixed;
+    top: 60px;
     right: 10px; 
 }
 
